@@ -4,7 +4,7 @@ import PetComponent from "./Pet";
 
 const App = () => {
     return (
-        <div>
+        <div className="bg-slate-200">
             <PetComponent name='Banana' breed='Golden retriver' age={5} />
             <PetComponent name='Gustav' breed='Pastore tedesco' age={50} />
             <PetComponent name='Lilli' breed='Cocker' age={2} />
